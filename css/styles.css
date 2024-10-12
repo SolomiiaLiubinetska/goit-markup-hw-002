@@ -1,0 +1,102 @@
+:root {
+  --main-page-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --background-footer-color: #2F303A;
+  --background-main-color: #F5F4FA;
+
+
+}
+body {
+    color: var(--main-page-color);
+    background-color: var(--white-color);
+}
+/* logo */
+.logo {
+    color: var(--black-color);
+    text-decoration: none;
+    
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+/* site nav */
+
+.site-nav .link {
+    color: var(--secondary-color);
+    text-decoration: none; 
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--main-page-color);
+    text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus  {
+    color: var(--accent-color);
+}
+.current .link {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+    color: var(--secondary-color);
+}
+.hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--accent-color);
+    background-color: var(--background-main-color);
+}
+/* main */
+
+.section-title {
+    color: var(--secondary-color);
+}
+
+.benefits-list .title {
+    color: var(--secondary-color);
+}
+.section.team {
+    background-color: var(--background-main-color);
+}
+.team-list .title {
+    color: var(--secondary-color);
+}
+
+/* portfolio examples */
+.examples-list .link {
+    color: var(--main-page-color);
+}
+.button {
+    color: var(--secondary-color);
+    background-color: var(--background-main-color);
+}
+.button.current {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* foorer */
+.footer {
+    background-color: var(--background-footer-color);
+    color: var(--white-color);
+}
+.footer .link {
+    color: var(--white-color);
+}
+
+.link-auth {
+    color: var(--main-page-color);
+}
